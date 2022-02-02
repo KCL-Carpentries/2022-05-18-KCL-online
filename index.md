@@ -10,7 +10,7 @@ language: "EN"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "51.503286"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-0.089539"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "May 18 and 19, 2022 (optional session: May 20)"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "10:00 am - 13:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "10:00 am - 1:00 pm (UK time)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2022-05-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-05-19       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Alessia Visconti", "Stefania Marcotti", "Flavia Flaviani"] 
@@ -121,7 +121,7 @@ This block displays the date and links to Google Calendar.
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}. The optional session will be held 3:30-5 pm.
+  {{page.humandate}}. The optional session will be held 11:30 am-1 pm.
 </p>
 {% endif %}
 
